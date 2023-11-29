@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- escrito em rosa a tag, em verde o atributo e em amarelo seus valores -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="página de login com botões para registre-se e para reset de senha">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Login,Registre-se,ResetSenha">
+    <link rel="shortcut icon" href="../img/icon-login.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Página de Login</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div id="square">
+                <div class="front">
+                    <h1>Login</h1>
+                    <form action="#" class="post">
+                        <input required type="email" name="email" id="email" placeholder="Email"/>
+                        <input required type="password" name="password" id="password" placeholder="Senha"/>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="right">
+                    <h1>Criar uma conta</h1>
+                    <form action="#" class="post">
+                        <input required type="email" name="email" id="email" placeholder="Email"/>
+                        <input required type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Nome completo"/>
+                        <input required type="password" name="password" id="password" placeholder="Senha"/>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="left">
+                    <h1>Adicione seu email para redefinir a senha</h1>
+                    <form action="#" class="post">
+                        <input required type="email" name="email" id="email" placeholder="Email"/>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="actions">
+                <button id="leftSide" type="button">Esqueceu a senha?</button>
+                <button id="frontSide" type="button">Login</button>
+                <button id="rightSide" type="button">Criar conta</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
